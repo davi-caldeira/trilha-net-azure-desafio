@@ -4,7 +4,7 @@ namespace TrilhaNetAzureDesafio.Models
     {
         public Funcionario() { }
 
-        public Funcionario(int id, string nome, string endereco, string ramal, string emailProfissional, string departamento, decimal salario, DateTime dataAdmissao)
+        public Funcionario(int id, string nome, string endereco, string ramal, string emailProfissional, string departamento, decimal salario, DateTimeOffset dataAdmissao)
         {
             Id = id;
             Nome = nome;
@@ -13,7 +13,7 @@ namespace TrilhaNetAzureDesafio.Models
             EmailProfissional = emailProfissional;
             Departamento = departamento;
             Salario = salario;
-            DataAdmissao = dataAdmissao;
+            DataAdmissao = DataAdmissao;
         }
 
         public int Id { get; set; }
